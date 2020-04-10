@@ -1,21 +1,5 @@
 #include <octomap_merger.h>
 
-void tree2PointCloud(OcTree *tree, pcl::PointCloud<pcl::PointXYZ>& pclCloud) {
-  // now, traverse all leafs in the tree:
-  for (OcTree::leaf_iterator it = tree->begin_leafs(),
-       end = tree->end_leafs(); it != end; ++it)
-  {
-    if (tree->isNodeOccupied(*it)) {
-      pclCloud.push_back(
-          pcl::PointXYZ(it.getX(),
-            it.getY(),
-            it.getZ()
-            )
-          );
-    }
-  }
-}
-
 bool pointInBBox(pcl::PointXYZ& point,
                  pcl::PointXYZ& bboxMin,
                  pcl::PointXYZ& bboxMax) {

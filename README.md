@@ -1,6 +1,6 @@
-# octomap_merger
+# marble_octomap_merger
 
-Merges multiple Octomaps and optionally aligns them using ICP prior to merging.
+Merges multiple Octomaps and optionally aligns them using ICP prior to merging.  Forked from https://github.com/dan-riley/octomap_merger for MARBLE specific functionality.
 
 Derived from James Jessup, Sidney N. Givigi, and Alain Beaulieu. "Merging of octree based 3d occupancy grid maps." In 2014 IEEE International Systems Conference Proceedings, pp. 371-377. IEEE, 2014. DOI: 10.1109/SMC.2014.6974556
 

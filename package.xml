@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>octomap_merger</name>
+  <name>marble_octomap_merger</name>
   <version>0.1.0</version>
-  <description>The octomap_merger package</description>
+  <description>The marble_octomap_merger package</description>
 
   <maintainer email="dan.riley@colorado.edu">Dan Riley</maintainer>
 
   <license>TODO</license>
 
-  <url type="website">https://www.github.com/dan-riley/octomap_merger</url>
+  <url type="website">https://www.github.com/dan-riley/marble_octomap_merger</url>
 
 	<author email="dan.riley@colorado.edu">Dan Riley</author>
 
